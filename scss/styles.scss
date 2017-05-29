@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+}
+.header {
+  background-color: black;
+  height: 200px;
+  h1 {
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size: 100px;
+  }
+}
+
+.intro {
+  padding-top: 3%;
+  min-height: 1000px;
+  background-color: black;
+  text-align: center;
+  h2, h4 {
+    font-family: 'Asap', sans-serif;
+    color: white;
+  }
+  span {
+    font-family: 'Electrolize', sans-serif;
+  }
+  button {
+    background-color: white;
+  }
+  img {
+    height: 300px;
+    width: auto;
+  }
+}
+
+.maingame {
+  display: none;
+  background-color: black;
+  min-height: 1000px;
+}
+
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  td {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+#sq1 {
+  border: 2px solid green;
+}
+#sq2 {
+  border: 2px solid red;
+}
+#sq3 {
+  border: 2px solid yellow;
+}
+#sq4 {
+  border: 2px solid blue;
+}
+
+.red-back {
+  background-color: red;
+}
+.blue-back {
+  background-color: blue;
+}
+.yellow-back {
+  background-color: yellow;
+}
+.green-back {
+  background-color: green;
+}

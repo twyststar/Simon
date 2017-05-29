@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Asap|Electrolize" rel="stylesheet">
     <link rel="stylesheet" href="build/css/vendor.css">
     <link rel="stylesheet" href="build/css/styles.css">
-    <link rel="stylesheet" href="css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title></title>
+    <title>Simon</title>
   </head>
   <body>
+    <div class="header">
+      <h1><span class="red">s</span><span class="blue">i</span><span class="yellow">m</span><span class="green">o</span><span class="red">n</span></h1>
+    </div>
+    <div class="container">
+<!-- intro div -->
+      <div class="intro">
+        <h2>Do you remember <span class="red">s</span><span class="blue">i</span><span class="yellow">m</span><span class="green">o</span><span class="red">n</span><span class="blue">?</span></h2>
+        <h4>Simon will show you a pattern, your job is to repeat it!</h4>
+        <h4>It will start with just one color.</h4>
+        <h4>Every time you get it right, Simon's pattern will get longer.</h4>
+        <h4>Miss once and it's game over!</h4>
+        <button id='play' class="btn btn-large play" name="play">Let's Play!</button>
+        <br>
+        <br>
+        <img src="/img/simon.gif" alt="">
+      </div>
+<!-- main game div -->
+      <div class="maingame">
+        <button id='go' class="btn btn-large go" name="go">GO</button>
+        <table>
+          <tr>
+            <td id="sq1">.</td>
+            <br>
+            <td id="sq2"></td>
+            <br>
+          </tr>
+          <tr>
+            <td id="sq3"></td>
+            <br>
+            <td id="sq4"></td>
+          </tr>
+        </table>
 
+      </div>
+    </div>
   </body>
 </html>
