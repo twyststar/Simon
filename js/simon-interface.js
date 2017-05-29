@@ -9,6 +9,10 @@ $(document).ready(function(){
     simon.prepArr();
   });
   $('.go').click(function(){
-    simon.demoTurn();
+    simon.demoTurn()
+    // .delay(500).queue(function(next){
+    //   console.log('test front');
+    // });
+
   });
 });
